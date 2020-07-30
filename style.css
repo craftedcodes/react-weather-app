@@ -1,0 +1,132 @@
+body {
+  width: max 500px;
+  margin: 0auto;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 3px 3px 4px #253541;
+}
+
+header {
+  max-width: max200px;
+  display: block;
+  padding: 0px;
+}
+main {
+  color: #f8f9fa;
+}
+input {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 60px;
+  display: inline-block;
+}
+h2 {
+  font-size: 120px;
+  display: inline-block;
+}
+main li {
+  font-size: 15px;
+}
+img {
+  background-color: #d0e7e9;
+  border-radius: 180px;
+  box-shadow: 3px 3px 4px #253541;
+}
+
+.big-icn {
+  max-width: 60px;
+  margin-top: 10px;
+}
+
+.btnme {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: flex-start;
+  text-shadow: 3px 3px 4px;
+  transition: all 0.3s ease-in-out;
+}
+.btnme:hover {
+  background-color: #f0eacb;
+}
+
+.card {
+  width: max200px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.coded {
+  color: #f8f9fa;
+  font-size: 20px;
+  text-align: center;
+}
+
+.crd {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #c872b6, #cfb67b, #84d695, #8da5dc);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+keyframes change {
+  0%  {
+    background-position: 0 50%;
+  }
+  50%  {
+    background-position: 100% 50%;
+  }
+  100%  {
+    background-position: 0 50%;
+  }
+}
+
+.c-f {
+  font-size: 30px;
+  transition: font-weight color 0.4s ease-in-out;
+}
+
+.c-f:hover {
+  font-weight: bold;
+  color: #f0eacb;
+}
+
+.glass {
+  text-shadow: 3px 3px 4px;
+}
+
+.icn {
+  border-radius: 180px;
+  background-color: #d0e7e9;
+}
+
+.lil-icn {
+  max-width: 30px;
+}
+
+.reference {
+  color: #f8f9fa;
+  font-size: 5px;
+  text-align: center;
+  text-shadow: none;
+  margin-top: 10px;
+}
+
+.tmp {
+  cursor: pointer;
+}
+
+.wthr {
+  margin-top: 10px;
+}
