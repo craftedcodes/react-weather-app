@@ -40,11 +40,12 @@ img {
   box-shadow: 3px 3px 4px #253541;
 }
 
+/*  current weather icon api */
 .big-icn {
   max-width: 60px;
   margin-top: 10px;
 }
-
+/* buttons */
 .btnme {
   display: inline-block;
   vertical-align: middle;
@@ -56,6 +57,7 @@ img {
   background-color: #f0eacb;
 }
 
+/* card basis */
 .card {
   width: max200px;
   border-radius: 10px;
@@ -64,12 +66,14 @@ img {
   background-color: transparent;
 }
 
+/* footer reference to coder github */
 .coded {
   color: #f8f9fa;
   font-size: 20px;
   text-align: center;
 }
 
+/* whole card body */
 .crd {
   width: 100%;
   height: 100vh;
@@ -79,6 +83,7 @@ img {
   position: relative;
   animation: change 10s ease-in-out infinite;
 }
+/* Background animation */
 
 keyframes change {
   0%  {
@@ -92,6 +97,7 @@ keyframes change {
   }
 }
 
+/* Celsius Fahrenheit measurement */
 .c-f {
   font-size: 30px;
   transition: font-weight color 0.4s ease-in-out;
@@ -102,19 +108,23 @@ keyframes change {
   color: #f0eacb;
 }
 
+/* placeholder text searchfield */
 .glass {
   text-shadow: 3px 3px 4px;
 }
 
+/* current weather icon */
 .icn {
   border-radius: 180px;
   background-color: #d0e7e9;
 }
 
+/* forecast icon api */
 .lil-icn {
   max-width: 30px;
 }
 
+/* icon reference text */
 .reference {
   color: #f8f9fa;
   font-size: 5px;
@@ -123,10 +133,12 @@ keyframes change {
   margin-top: 10px;
 }
 
+/* current temperature */
 .tmp {
   cursor: pointer;
 }
 
+/* current weather conditions */
 .wthr {
   margin-top: 10px;
 }
